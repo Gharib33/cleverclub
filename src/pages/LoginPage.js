@@ -1,6 +1,12 @@
-import React, { Component } from "react";
-function login() {
-  return <></>;
-}
+import LoginForm from "../components/LoginForm";
 
-export default login;
+const LoginPage = () => {
+  return (
+    <div className="login-page">
+      <h1>Logga in</h1>
+      <LoginForm />
+    </div>
+  );
+};
+
+export default LoginPage;
